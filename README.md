@@ -1,15 +1,8 @@
-# Basic Sample Hardhat Project
+# Dutch Auction 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+`DutchAuction.sol` is a contract that allows the owner to create dutch auctions for ERC721 tokens. The owner can only create 1 auction at time, and must wait until someone bids on the auction or it expires. <br/>
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Usage
+Clone the repo and run `npm install`.
+This was built with HardHat. To compile, run `npx hardhat compile`. To run tests, run `npx hardhat test`.
